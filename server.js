@@ -21,7 +21,7 @@ mongoose.connect(db, { useUnifiedTopology: true, useNewUrlParser: true }, functi
   if (err)
     console.log("Failed to establish a connection to Mongo DB", err);
   else {
-    console.log("Connection established to Mongo DB");
+    console.log("Connection established to Mongo DataBase");
   }
 });
 //passport
